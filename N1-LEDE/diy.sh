@@ -12,8 +12,8 @@ function git_sparse_clone() {
 # Add packages
 #添加科学上网源
 git clone -b 24.10 --single-branch --depth 1 https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
-git clone -b main --depth=1 https://github.com/kenzok8/luci-theme-ifit package/luci-theme-ifit
 git clone -b 24.10 --single-branch --depth 1 https://github.com/jerrykuku/luci-app-argon-config package/luci-app-argon-config
+git clone https://github.com/kenzok8/luci-theme-ifit.git package/lean/luci-theme-ifit
 git clone --depth=1 https://github.com/ophub/luci-app-amlogic package/amlogic
 git clone --depth=1 https://github.com/sirpdboy/luci-app-ddns-go package/ddnsgo
 #git clone --depth=1 https://github.com/sirpdboy/NetSpeedTest package/NetSpeedTest
