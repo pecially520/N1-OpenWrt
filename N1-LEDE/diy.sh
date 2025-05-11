@@ -16,6 +16,7 @@ git clone -b 24.10 --single-branch --depth 1 https://github.com/jerrykuku/luci-a
 git clone https://github.com/kenzok8/luci-theme-ifit.git package/lean/luci-theme-ifit
 git clone --depth=1 https://github.com/ophub/luci-app-amlogic package/amlogic
 git clone --depth=1 https://github.com/sirpdboy/luci-app-ddns-go package/ddnsgo
+git clone https://github.com/rufengsuixing/luci-app-adguardhome package/community/luci-app-adguardhome
 #git clone --depth=1 https://github.com/sirpdboy/NetSpeedTest package/NetSpeedTest
 
 git clone -b v5 --depth=1 https://github.com/sbwml/mosdns package/mosdns-core
@@ -25,7 +26,6 @@ git clone -b lua --single-branch --depth 1 https://github.com/sbwml/luci-app-ali
 git clone --depth=1 https://github.com/gdy666/luci-app-lucky.git package/lucky
 #添加自定义的软件包源
 git_sparse_clone main https://github.com/kiddin9/kwrt-packages luci-app-openclash
-git_sparse_clone main https://github.com/kiddin9/kwrt-packages luci-app-adguardhome
 git_sparse_clone main https://github.com/kiddin9/kwrt-packages luci-app-unblockmusic
 # Remove packages
 #删除lean库中的插件，使用自定义源中的包。
